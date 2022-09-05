@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>ADS - POO</h1>
+        <h2>Servlets </h2>
+        <h3>Tabuada</h3>
+        <form action="tabuada.html">
+            <p>
+               Quantidade:<input type="number" name="n" />
+               <input type="submit" name="gerar-tabuada" value="Gerar"/>
+            </p>
+        </form>
+        <hr/>
+        <h3>Soma</h3>
+        <form action="soma.html">
+            <input type="number" name="n1" /> +
+            <input type="number" name="n2" />
+            <input type="submit" name="gerar-soma" value="="/>
+        </form>
+        <hr/>
+        <h1>Equações com Servlet</h1>
+           <h2>Escolha os números:</h2>
+           <form action="math.html">
+                <h3>N1: <input type='number' name='n1'/></h3>
+                <h3>N2: <input type='number' name='n2'/></h3>
+                <hr/>
+                <h2>Escolha a equação:</h2>
+                <h3><input type="radio" name="op" value="soma">
+                <label for='soma'>+</label></h3>
+                <h3><input type='radio' name='op' value="sub">
+                <label for='sub'>-</label></h3>
+                <h3><input type='radio' name='op' value="mult">
+                <label for='mult'>*</label></h3>
+                <h3><input type='radio' name='op' value="div">
+                <label for='div'>/</label></h3>
+                <input type='submit' name='result-soma' value='Gerar'/>
+                <hr/>
+            </form>
+           <h1>Números Aleatórios</h1>
+           <form action="random.html">
+               <h3>
+                   Informe uma quantidade: <input type="number" name="n" />
+                   <input type="submit" name="gerar" value="Gerar" />
+               </h3>
+               
+               
+           </form>
+    </body>
+</html>
